@@ -1,4 +1,4 @@
-# noop3 [![Build Status](https://travis-ci.org/sindresorhus/noop3.svg?branch=master)](https://travis-ci.org/sindresorhus/noop3)
+# noop3 [![Build Status](https://travis-ci.org/sindresorhus/noop3.svg?branch=master)](https://travis-ci.org/sindresorhus/noop3) [![Coverage Status](https://coveralls.io/repos/sindresorhus/noop3/badge.svg?branch=master&service=github)](https://coveralls.io/github/sindresorhus/noop3?branch=master)
 
 > 🦄 Supreme nothingness
 
