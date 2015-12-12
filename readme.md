@@ -35,6 +35,11 @@ unicorn();
 ```
 
 
+## Prior art
+
+- [noop2](https://github.com/yoshuawuyts/noop2)
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
