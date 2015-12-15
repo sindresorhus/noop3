@@ -30,8 +30,14 @@ function unicorn(fn) {
 	fn = fn || noop;
 	return fn('unicorn');
 }
-
 unicorn();
+
+// also compatible with non-mythical single horned creatures
+function narwhal(fn) {
+	fn = fn || noop;
+	return fn('narwhal');
+}
+narwhal();
 ```
 
 
