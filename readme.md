@@ -38,8 +38,17 @@ function narwhal(fn) {
 	return fn('narwhal');
 }
 narwhal();
-```
 
+// Using the noop factory
+const fn = require('noop3/factory');
+const rainbow = fn();
+const flowers = fn();
+rainbow === flowers
+//=> false
+
+rainbow()
+//=> undefined
+```
 
 ## Prior art
 
