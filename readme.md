@@ -8,8 +8,7 @@
 
 > 🦄 Supreme nothingness
 
-[![Build Status](https://travis-ci.org/sindresorhus/noop3.svg?branch=master)](https://travis-ci.org/sindresorhus/noop3) [![Coverage Status](https://coveralls.io/repos/sindresorhus/noop3/badge.svg?branch=master&service=github)](https://coveralls.io/github/sindresorhus/noop3?branch=master)
-
+[![Build Status](https://travis-ci.org/sindresorhus/noop3.svg?branch=master)](https://travis-ci.org/sindresorhus/noop3) [![Coverage Status](https://coveralls.io/repos/github/sindresorhus/noop3/badge.svg?branch=master)](https://coveralls.io/github/sindresorhus/noop3?branch=master)
 
 ![](https://cloud.githubusercontent.com/assets/170270/11731042/eba6ffc6-9f98-11e5-8d7d-7890dbc394c5.gif)
 
