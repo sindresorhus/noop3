@@ -1,4 +1,5 @@
 'use strict';
-module.exports = function noopFactory() {
+function NoopFactory() {
 	return function noop() {};
-};
+}
+module.exports = new NoopFactory;
