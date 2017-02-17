@@ -1,4 +1,4 @@
 'use strict';
-var noopFactory = require('./factory');
+const noopFactory = require('./factory');
 
 module.exports = noopFactory();
