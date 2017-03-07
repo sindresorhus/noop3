@@ -2,7 +2,7 @@ import test from 'ava';
 import fnfactory from './factory';
 import fn from './';
 
-const EXAMPLE_NOOP_FUNCTION_3 = 'function noop() {}';
+const EXAMPLE_NOOP_FUNCTION_3 = '() => {}';
 
 test('noop does nothing', t => {
 	t.is(typeof fn, 'function');
