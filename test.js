@@ -1,6 +1,6 @@
 import test from 'ava';
 import fnfactory from './factory';
-import fn from './';
+import fn from '.';
 
 const EXAMPLE_NOOP_FUNCTION_3 = '() => {}';
 

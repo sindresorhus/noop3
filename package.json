@@ -1,38 +1,38 @@
 {
-  "name": "noop3",
-  "version": "999.999.999",
-  "description": "🦄 Supreme nothingness",
-  "license": "MIT",
-  "repository": "sindresorhus/noop3",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4.0"
-  },
-  "scripts": {
-    "test": "xo && ava",
-    "coveralls": "nyc ava && nyc report --reporter=text-lcov | coveralls"
-  },
-  "files": [
-    "index.js",
-    "factory.js"
-  ],
-  "keywords": [
-    "🦄",
-    "noop",
-    "no-op",
-    "empty",
-    "function",
-    "func",
-    "fn"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "coveralls": "^2.11.5",
-    "nyc": "^10.3.2",
-    "xo": "*"
-  }
+	"name": "noop3",
+	"version": "999.999.999",
+	"description": "◻️ Supreme nothingness",
+	"license": "MIT",
+	"repository": "sindresorhus/noop3",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"coveralls": "nyc ava && nyc report --reporter=text-lcov | coveralls"
+	},
+	"files": [
+		"index.js",
+		"factory.js"
+	],
+	"keywords": [
+		"noop",
+		"no-op",
+		"empty",
+		"nothing",
+		"function",
+		"func",
+		"fn"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"coveralls": "^2.11.5",
+		"nyc": "^11.0.3",
+		"xo": "*"
+	}
 }

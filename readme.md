@@ -6,7 +6,7 @@
 	<br>
 </h1>
 
-> 🦄 Supreme nothingness
+> ◻️ Supreme nothingness
 
 [![Build Status](https://travis-ci.org/sindresorhus/noop3.svg?branch=master)](https://travis-ci.org/sindresorhus/noop3) [![Coverage Status](https://coveralls.io/repos/github/sindresorhus/noop3/badge.svg?branch=master)](https://coveralls.io/github/sindresorhus/noop3?branch=master)
 
@@ -16,7 +16,7 @@
 ## Install
 
 ```
-$ npm install --save noop3
+$ npm install noop3
 ```
 
 
@@ -31,7 +31,7 @@ function unicorn(fn) {
 }
 unicorn();
 
-// also compatible with non-mythical single horned creatures
+// Also compatible with non-mythical single horned creatures
 function narwhal(fn) {
 	fn = fn || noop;
 	return fn('narwhal');
@@ -42,18 +42,20 @@ narwhal();
 const fn = require('noop3/factory');
 const rainbow = fn();
 const flowers = fn();
-rainbow === flowers
+console.log(rainbow === flowers);
 //=> false
 
-rainbow()
+rainbow();
 //=> undefined
 ```
 
-## Prior art
 
-- [noop2](https://github.com/yoshuawuyts/noop2)
+## Related
+
+- [noop-cli](https://github.com/sindresorhus/noop-cli) - CLI for this module
+- [noop2](https://github.com/yoshuawuyts/noop2) - Prior art
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
