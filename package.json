@@ -10,11 +10,10 @@
 		"url": "sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=4"
+		"node": ">=6"
 	},
 	"scripts": {
-		"test": "xo && ava",
-		"coveralls": "nyc ava && nyc report --reporter=text-lcov | coveralls"
+		"test": "xo && ava"
 	},
 	"files": [
 		"index.js",
